@@ -1,5 +1,4 @@
 class Player:
-    _ids = list()
 
     def __init__(self, _id: str, _name: str):
         self._name = _name
