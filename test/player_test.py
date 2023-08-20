@@ -11,3 +11,7 @@ class TestPlayerProperties(unittest.TestCase):
 
     def test_uniqueness(self):
         self.assertNotEqual(init_player.uid, other_player.uid)
+
+
+if __name__ == '__main__':
+    unittest.main()
