@@ -8,6 +8,7 @@ class TestPlayerProperties(unittest.TestCase):
 
     def test_empty(self):
         self.assertNotEqual(len(init_player.uid), 0)
+        self.assertNotEqual(len(init_player.name), 0)
 
     def test_uniqueness(self):
         self.assertNotEqual(init_player.uid, other_player.uid)
